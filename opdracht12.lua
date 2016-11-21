@@ -15,7 +15,7 @@ while i > 0 do
       robot_arm:move_left()
     end
   end
-  if robot_arm:grab() == null then
+  if robot_arm:grab() == nil then
     i = 0
   end
 end
